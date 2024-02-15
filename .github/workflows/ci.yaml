@@ -1,7 +1,7 @@
-name: ci0golang-workflow
-on: [push]
+name: ci-golang-workflow
+on: push
 jobs:
-  check-application:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
