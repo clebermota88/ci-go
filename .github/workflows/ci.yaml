@@ -1,7 +1,7 @@
 name: ci0golang-workflow
 on: [push]
 jobs:
-  chack-application:
+  check-application:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
